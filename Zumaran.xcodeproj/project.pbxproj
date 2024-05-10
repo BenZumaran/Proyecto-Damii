@@ -1,0 +1,851 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4E9FE991AEB98D5F867C51D2 /* Pods_Zumaran_ZumaranUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD47F39B107D5B0C1DC0860 /* Pods_Zumaran_ZumaranUITests.framework */; };
+		B7168DB42BE092E400035DE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7168DB32BE092E400035DE1 /* LoginViewController.swift */; };
+		B7168DB62BE098F000035DE1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7168DB52BE098F000035DE1 /* GoogleService-Info.plist */; };
+		B718F3252BD7360000E60F9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B718F3242BD7360000E60F9E /* AppDelegate.swift */; };
+		B718F3272BD7360000E60F9E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B718F3262BD7360000E60F9E /* SceneDelegate.swift */; };
+		B718F3292BD7360000E60F9E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B718F3282BD7360000E60F9E /* ViewController.swift */; };
+		B718F32C2BD7360000E60F9E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B718F32A2BD7360000E60F9E /* Main.storyboard */; };
+		B718F32E2BD7360100E60F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B718F32D2BD7360100E60F9E /* Assets.xcassets */; };
+		B718F3312BD7360100E60F9E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B718F32F2BD7360100E60F9E /* LaunchScreen.storyboard */; };
+		B718F33C2BD7360100E60F9E /* ZumaranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B718F33B2BD7360100E60F9E /* ZumaranTests.swift */; };
+		B718F3462BD7360100E60F9E /* ZumaranUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B718F3452BD7360100E60F9E /* ZumaranUITests.swift */; };
+		B718F3482BD7360100E60F9E /* ZumaranUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B718F3472BD7360100E60F9E /* ZumaranUITestsLaunchTests.swift */; };
+		B75F9D152BE06F1E00CE8358 /* CrudMedicamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F9D142BE06F1E00CE8358 /* CrudMedicamentoViewController.swift */; };
+		B7787E452BE8085700F58D98 /* CuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7787E442BE8085700F58D98 /* CuentaViewController.swift */; };
+		B7787E472BE810F200F58D98 /* ProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7787E462BE810F200F58D98 /* ProductoViewController.swift */; };
+		B7787E492BE8112C00F58D98 /* ItemProductoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7787E482BE8112C00F58D98 /* ItemProductoTableViewCell.swift */; };
+		B7787E4B2BE812AC00F58D98 /* Producto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7787E4A2BE812AC00F58D98 /* Producto.swift */; };
+		B77954EB2BD7373A00A2535A /* AgregarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77954EA2BD7373A00A2535A /* AgregarViewController.swift */; };
+		B77954EF2BD739B700A2535A /* ItemTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77954EE2BD739B700A2535A /* ItemTableViewCell.swift */; };
+		B77954F22BD73D6E00A2535A /* AgendaModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = B77954F02BD73D6E00A2535A /* AgendaModel.xcdatamodeld */; };
+		B77954F42BD7406E00A2535A /* ControladorProducto.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77954F32BD7406E00A2535A /* ControladorProducto.swift */; };
+		B77954F62BD740B100A2535A /* Agenda.swift in Sources */ = {isa = PBXBuildFile; fileRef = B77954F52BD740B100A2535A /* Agenda.swift */; };
+		B7C787292BDECFB800EB9E52 /* Medicamento.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C787282BDECFB800EB9E52 /* Medicamento.swift */; };
+		B7C7872B2BDED0F100EB9E52 /* MedicamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C7872A2BDED0F100EB9E52 /* MedicamentoViewController.swift */; };
+		B7C7872D2BDED12300EB9E52 /* ItemMedicamentoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C7872C2BDED12300EB9E52 /* ItemMedicamentoTableViewCell.swift */; };
+		B7C7872F2BDEDDCD00EB9E52 /* RegistrarMedicamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C7872E2BDEDDCD00EB9E52 /* RegistrarMedicamentoViewController.swift */; };
+		B7C8A7832BEDB88F00777712 /* Ejercicio.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7C8A7822BEDB88F00777712 /* Ejercicio.swift */; };
+		BB8E771522D7FD5E98409F9E /* Pods_Zumaran.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 745B9250B49BEBCE63DB0E13 /* Pods_Zumaran.framework */; };
+		E014168DD777C6271629E5EE /* Pods_ZumaranTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8F9DC4ECE2280C659BC2F5E1 /* Pods_ZumaranTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B718F3382BD7360100E60F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B718F3192BD7360000E60F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B718F3202BD7360000E60F9E;
+			remoteInfo = Zumaran;
+		};
+		B718F3422BD7360100E60F9E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B718F3192BD7360000E60F9E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B718F3202BD7360000E60F9E;
+			remoteInfo = Zumaran;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02036D6972AB6685C3F5FABA /* Pods-Zumaran-ZumaranUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zumaran-ZumaranUITests.release.xcconfig"; path = "Target Support Files/Pods-Zumaran-ZumaranUITests/Pods-Zumaran-ZumaranUITests.release.xcconfig"; sourceTree = "<group>"; };
+		3AEC430CF0D40E7412687E1C /* Pods-ZumaranTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZumaranTests.release.xcconfig"; path = "Target Support Files/Pods-ZumaranTests/Pods-ZumaranTests.release.xcconfig"; sourceTree = "<group>"; };
+		745B9250B49BEBCE63DB0E13 /* Pods_Zumaran.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zumaran.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		89F42036162CFBA8F048F880 /* Pods-Zumaran.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zumaran.debug.xcconfig"; path = "Target Support Files/Pods-Zumaran/Pods-Zumaran.debug.xcconfig"; sourceTree = "<group>"; };
+		8F9DC4ECE2280C659BC2F5E1 /* Pods_ZumaranTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZumaranTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		973A6B946DC89CEDDB73A110 /* Pods-ZumaranTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZumaranTests.debug.xcconfig"; path = "Target Support Files/Pods-ZumaranTests/Pods-ZumaranTests.debug.xcconfig"; sourceTree = "<group>"; };
+		A831317FA77F9FDC7205174B /* Pods-Zumaran-ZumaranUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zumaran-ZumaranUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zumaran-ZumaranUITests/Pods-Zumaran-ZumaranUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7168DB32BE092E400035DE1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
+		B7168DB52BE098F000035DE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		B718F3212BD7360000E60F9E /* Zumaran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zumaran.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B718F3242BD7360000E60F9E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B718F3262BD7360000E60F9E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		B718F3282BD7360000E60F9E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B718F32B2BD7360000E60F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B718F32D2BD7360100E60F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B718F3302BD7360100E60F9E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B718F3322BD7360100E60F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B718F3372BD7360100E60F9E /* ZumaranTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZumaranTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B718F33B2BD7360100E60F9E /* ZumaranTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumaranTests.swift; sourceTree = "<group>"; };
+		B718F3412BD7360100E60F9E /* ZumaranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZumaranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B718F3452BD7360100E60F9E /* ZumaranUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumaranUITests.swift; sourceTree = "<group>"; };
+		B718F3472BD7360100E60F9E /* ZumaranUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumaranUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B75F9D142BE06F1E00CE8358 /* CrudMedicamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrudMedicamentoViewController.swift; sourceTree = "<group>"; };
+		B7787E442BE8085700F58D98 /* CuentaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaViewController.swift; sourceTree = "<group>"; };
+		B7787E462BE810F200F58D98 /* ProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoViewController.swift; sourceTree = "<group>"; };
+		B7787E482BE8112C00F58D98 /* ItemProductoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemProductoTableViewCell.swift; sourceTree = "<group>"; };
+		B7787E4A2BE812AC00F58D98 /* Producto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Producto.swift; sourceTree = "<group>"; };
+		B77954EA2BD7373A00A2535A /* AgregarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AgregarViewController.swift; sourceTree = "<group>"; };
+		B77954EE2BD739B700A2535A /* ItemTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemTableViewCell.swift; sourceTree = "<group>"; };
+		B77954F12BD73D6E00A2535A /* AgendaModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = AgendaModel.xcdatamodel; sourceTree = "<group>"; };
+		B77954F32BD7406E00A2535A /* ControladorProducto.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ControladorProducto.swift; sourceTree = "<group>"; };
+		B77954F52BD740B100A2535A /* Agenda.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Agenda.swift; sourceTree = "<group>"; };
+		B7C787282BDECFB800EB9E52 /* Medicamento.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Medicamento.swift; sourceTree = "<group>"; };
+		B7C7872A2BDED0F100EB9E52 /* MedicamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MedicamentoViewController.swift; sourceTree = "<group>"; };
+		B7C7872C2BDED12300EB9E52 /* ItemMedicamentoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemMedicamentoTableViewCell.swift; sourceTree = "<group>"; };
+		B7C7872E2BDEDDCD00EB9E52 /* RegistrarMedicamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrarMedicamentoViewController.swift; sourceTree = "<group>"; };
+		B7C8A7822BEDB88F00777712 /* Ejercicio.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ejercicio.swift; sourceTree = "<group>"; };
+		EDD47F39B107D5B0C1DC0860 /* Pods_Zumaran_ZumaranUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zumaran_ZumaranUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E76D997E275D785557F81E /* Pods-Zumaran.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zumaran.release.xcconfig"; path = "Target Support Files/Pods-Zumaran/Pods-Zumaran.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B718F31E2BD7360000E60F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BB8E771522D7FD5E98409F9E /* Pods_Zumaran.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B718F3342BD7360100E60F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E014168DD777C6271629E5EE /* Pods_ZumaranTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B718F33E2BD7360100E60F9E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E9FE991AEB98D5F867C51D2 /* Pods_Zumaran_ZumaranUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0927CEE1F3F3C74AD4065017 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				89F42036162CFBA8F048F880 /* Pods-Zumaran.debug.xcconfig */,
+				F5E76D997E275D785557F81E /* Pods-Zumaran.release.xcconfig */,
+				A831317FA77F9FDC7205174B /* Pods-Zumaran-ZumaranUITests.debug.xcconfig */,
+				02036D6972AB6685C3F5FABA /* Pods-Zumaran-ZumaranUITests.release.xcconfig */,
+				973A6B946DC89CEDDB73A110 /* Pods-ZumaranTests.debug.xcconfig */,
+				3AEC430CF0D40E7412687E1C /* Pods-ZumaranTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		52A1CDFBCF658849FA3987C4 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				745B9250B49BEBCE63DB0E13 /* Pods_Zumaran.framework */,
+				EDD47F39B107D5B0C1DC0860 /* Pods_Zumaran_ZumaranUITests.framework */,
+				8F9DC4ECE2280C659BC2F5E1 /* Pods_ZumaranTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B718F3182BD7360000E60F9E = {
+			isa = PBXGroup;
+			children = (
+				B718F3232BD7360000E60F9E /* Zumaran */,
+				B718F33A2BD7360100E60F9E /* ZumaranTests */,
+				B718F3442BD7360100E60F9E /* ZumaranUITests */,
+				B718F3222BD7360000E60F9E /* Products */,
+				0927CEE1F3F3C74AD4065017 /* Pods */,
+				52A1CDFBCF658849FA3987C4 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B718F3222BD7360000E60F9E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B718F3212BD7360000E60F9E /* Zumaran.app */,
+				B718F3372BD7360100E60F9E /* ZumaranTests.xctest */,
+				B718F3412BD7360100E60F9E /* ZumaranUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B718F3232BD7360000E60F9E /* Zumaran */ = {
+			isa = PBXGroup;
+			children = (
+				B7C787272BDECF6D00EB9E52 /* API */,
+				B718F3242BD7360000E60F9E /* AppDelegate.swift */,
+				B718F3262BD7360000E60F9E /* SceneDelegate.swift */,
+				B718F3282BD7360000E60F9E /* ViewController.swift */,
+				B718F32A2BD7360000E60F9E /* Main.storyboard */,
+				B718F32D2BD7360100E60F9E /* Assets.xcassets */,
+				B718F32F2BD7360100E60F9E /* LaunchScreen.storyboard */,
+				B718F3322BD7360100E60F9E /* Info.plist */,
+				B77954EA2BD7373A00A2535A /* AgregarViewController.swift */,
+				B77954EE2BD739B700A2535A /* ItemTableViewCell.swift */,
+				B77954F02BD73D6E00A2535A /* AgendaModel.xcdatamodeld */,
+				B77954F32BD7406E00A2535A /* ControladorProducto.swift */,
+				B77954F52BD740B100A2535A /* Agenda.swift */,
+				B7168DB52BE098F000035DE1 /* GoogleService-Info.plist */,
+			);
+			path = Zumaran;
+			sourceTree = "<group>";
+		};
+		B718F33A2BD7360100E60F9E /* ZumaranTests */ = {
+			isa = PBXGroup;
+			children = (
+				B718F33B2BD7360100E60F9E /* ZumaranTests.swift */,
+			);
+			path = ZumaranTests;
+			sourceTree = "<group>";
+		};
+		B718F3442BD7360100E60F9E /* ZumaranUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B718F3452BD7360100E60F9E /* ZumaranUITests.swift */,
+				B718F3472BD7360100E60F9E /* ZumaranUITestsLaunchTests.swift */,
+			);
+			path = ZumaranUITests;
+			sourceTree = "<group>";
+		};
+		B7C787272BDECF6D00EB9E52 /* API */ = {
+			isa = PBXGroup;
+			children = (
+				B7C787282BDECFB800EB9E52 /* Medicamento.swift */,
+				B7787E442BE8085700F58D98 /* CuentaViewController.swift */,
+				B7C7872A2BDED0F100EB9E52 /* MedicamentoViewController.swift */,
+				B7C7872C2BDED12300EB9E52 /* ItemMedicamentoTableViewCell.swift */,
+				B7C7872E2BDEDDCD00EB9E52 /* RegistrarMedicamentoViewController.swift */,
+				B75F9D142BE06F1E00CE8358 /* CrudMedicamentoViewController.swift */,
+				B7168DB32BE092E400035DE1 /* LoginViewController.swift */,
+				B7787E462BE810F200F58D98 /* ProductoViewController.swift */,
+				B7787E482BE8112C00F58D98 /* ItemProductoTableViewCell.swift */,
+				B7787E4A2BE812AC00F58D98 /* Producto.swift */,
+				B7C8A7822BEDB88F00777712 /* Ejercicio.swift */,
+			);
+			path = API;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B718F3202BD7360000E60F9E /* Zumaran */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B718F34B2BD7360100E60F9E /* Build configuration list for PBXNativeTarget "Zumaran" */;
+			buildPhases = (
+				A44CACAFAE184D82E905F206 /* [CP] Check Pods Manifest.lock */,
+				B718F31D2BD7360000E60F9E /* Sources */,
+				B718F31E2BD7360000E60F9E /* Frameworks */,
+				B718F31F2BD7360000E60F9E /* Resources */,
+				BF0095D1F78547FF3FE4817F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Zumaran;
+			productName = Zumaran;
+			productReference = B718F3212BD7360000E60F9E /* Zumaran.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B718F3362BD7360100E60F9E /* ZumaranTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B718F34E2BD7360100E60F9E /* Build configuration list for PBXNativeTarget "ZumaranTests" */;
+			buildPhases = (
+				B8192B914DC3B5CA499AA84E /* [CP] Check Pods Manifest.lock */,
+				B718F3332BD7360100E60F9E /* Sources */,
+				B718F3342BD7360100E60F9E /* Frameworks */,
+				B718F3352BD7360100E60F9E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B718F3392BD7360100E60F9E /* PBXTargetDependency */,
+			);
+			name = ZumaranTests;
+			productName = ZumaranTests;
+			productReference = B718F3372BD7360100E60F9E /* ZumaranTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B718F3402BD7360100E60F9E /* ZumaranUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B718F3512BD7360100E60F9E /* Build configuration list for PBXNativeTarget "ZumaranUITests" */;
+			buildPhases = (
+				0199AF81235CFFF4C525A491 /* [CP] Check Pods Manifest.lock */,
+				B718F33D2BD7360100E60F9E /* Sources */,
+				B718F33E2BD7360100E60F9E /* Frameworks */,
+				B718F33F2BD7360100E60F9E /* Resources */,
+				AB23D3867FE164D8120B3644 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B718F3432BD7360100E60F9E /* PBXTargetDependency */,
+			);
+			name = ZumaranUITests;
+			productName = ZumaranUITests;
+			productReference = B718F3412BD7360100E60F9E /* ZumaranUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B718F3192BD7360000E60F9E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1520;
+				LastUpgradeCheck = 1520;
+				TargetAttributes = {
+					B718F3202BD7360000E60F9E = {
+						CreatedOnToolsVersion = 15.2;
+					};
+					B718F3362BD7360100E60F9E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B718F3202BD7360000E60F9E;
+					};
+					B718F3402BD7360100E60F9E = {
+						CreatedOnToolsVersion = 15.2;
+						TestTargetID = B718F3202BD7360000E60F9E;
+					};
+				};
+			};
+			buildConfigurationList = B718F31C2BD7360000E60F9E /* Build configuration list for PBXProject "Zumaran" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B718F3182BD7360000E60F9E;
+			productRefGroup = B718F3222BD7360000E60F9E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B718F3202BD7360000E60F9E /* Zumaran */,
+				B718F3362BD7360100E60F9E /* ZumaranTests */,
+				B718F3402BD7360100E60F9E /* ZumaranUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B718F31F2BD7360000E60F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B718F3312BD7360100E60F9E /* LaunchScreen.storyboard in Resources */,
+				B7168DB62BE098F000035DE1 /* GoogleService-Info.plist in Resources */,
+				B718F32E2BD7360100E60F9E /* Assets.xcassets in Resources */,
+				B718F32C2BD7360000E60F9E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B718F3352BD7360100E60F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B718F33F2BD7360100E60F9E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0199AF81235CFFF4C525A491 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zumaran-ZumaranUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A44CACAFAE184D82E905F206 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zumaran-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AB23D3867FE164D8120B3644 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zumaran-ZumaranUITests/Pods-Zumaran-ZumaranUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zumaran-ZumaranUITests/Pods-Zumaran-ZumaranUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zumaran-ZumaranUITests/Pods-Zumaran-ZumaranUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B8192B914DC3B5CA499AA84E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ZumaranTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BF0095D1F78547FF3FE4817F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zumaran/Pods-Zumaran-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zumaran/Pods-Zumaran-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zumaran/Pods-Zumaran-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B718F31D2BD7360000E60F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B7168DB42BE092E400035DE1 /* LoginViewController.swift in Sources */,
+				B718F3292BD7360000E60F9E /* ViewController.swift in Sources */,
+				B718F3252BD7360000E60F9E /* AppDelegate.swift in Sources */,
+				B75F9D152BE06F1E00CE8358 /* CrudMedicamentoViewController.swift in Sources */,
+				B7787E492BE8112C00F58D98 /* ItemProductoTableViewCell.swift in Sources */,
+				B77954F42BD7406E00A2535A /* ControladorProducto.swift in Sources */,
+				B77954EF2BD739B700A2535A /* ItemTableViewCell.swift in Sources */,
+				B7787E472BE810F200F58D98 /* ProductoViewController.swift in Sources */,
+				B7C787292BDECFB800EB9E52 /* Medicamento.swift in Sources */,
+				B7787E4B2BE812AC00F58D98 /* Producto.swift in Sources */,
+				B7C7872B2BDED0F100EB9E52 /* MedicamentoViewController.swift in Sources */,
+				B77954F22BD73D6E00A2535A /* AgendaModel.xcdatamodeld in Sources */,
+				B7787E452BE8085700F58D98 /* CuentaViewController.swift in Sources */,
+				B7C7872F2BDEDDCD00EB9E52 /* RegistrarMedicamentoViewController.swift in Sources */,
+				B7C7872D2BDED12300EB9E52 /* ItemMedicamentoTableViewCell.swift in Sources */,
+				B77954EB2BD7373A00A2535A /* AgregarViewController.swift in Sources */,
+				B718F3272BD7360000E60F9E /* SceneDelegate.swift in Sources */,
+				B77954F62BD740B100A2535A /* Agenda.swift in Sources */,
+				B7C8A7832BEDB88F00777712 /* Ejercicio.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B718F3332BD7360100E60F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B718F33C2BD7360100E60F9E /* ZumaranTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B718F33D2BD7360100E60F9E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B718F3462BD7360100E60F9E /* ZumaranUITests.swift in Sources */,
+				B718F3482BD7360100E60F9E /* ZumaranUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B718F3392BD7360100E60F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B718F3202BD7360000E60F9E /* Zumaran */;
+			targetProxy = B718F3382BD7360100E60F9E /* PBXContainerItemProxy */;
+		};
+		B718F3432BD7360100E60F9E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B718F3202BD7360000E60F9E /* Zumaran */;
+			targetProxy = B718F3422BD7360100E60F9E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B718F32A2BD7360000E60F9E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B718F32B2BD7360000E60F9E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B718F32F2BD7360100E60F9E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B718F3302BD7360100E60F9E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B718F3492BD7360100E60F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B718F34A2BD7360100E60F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B718F34C2BD7360100E60F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 89F42036162CFBA8F048F880 /* Pods-Zumaran.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zumaran/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cibertec.edu.pe.Zumaran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B718F34D2BD7360100E60F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F5E76D997E275D785557F81E /* Pods-Zumaran.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = Zumaran/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cibertec.edu.pe.Zumaran;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B718F34F2BD7360100E60F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 973A6B946DC89CEDDB73A110 /* Pods-ZumaranTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cibertec.edu.pe.ZumaranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zumaran.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zumaran";
+			};
+			name = Debug;
+		};
+		B718F3502BD7360100E60F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3AEC430CF0D40E7412687E1C /* Pods-ZumaranTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cibertec.edu.pe.ZumaranTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zumaran.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Zumaran";
+			};
+			name = Release;
+		};
+		B718F3522BD7360100E60F9E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A831317FA77F9FDC7205174B /* Pods-Zumaran-ZumaranUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cibertec.edu.pe.ZumaranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zumaran;
+			};
+			name = Debug;
+		};
+		B718F3532BD7360100E60F9E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 02036D6972AB6685C3F5FABA /* Pods-Zumaran-ZumaranUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = cibertec.edu.pe.ZumaranUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Zumaran;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B718F31C2BD7360000E60F9E /* Build configuration list for PBXProject "Zumaran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B718F3492BD7360100E60F9E /* Debug */,
+				B718F34A2BD7360100E60F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B718F34B2BD7360100E60F9E /* Build configuration list for PBXNativeTarget "Zumaran" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B718F34C2BD7360100E60F9E /* Debug */,
+				B718F34D2BD7360100E60F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B718F34E2BD7360100E60F9E /* Build configuration list for PBXNativeTarget "ZumaranTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B718F34F2BD7360100E60F9E /* Debug */,
+				B718F3502BD7360100E60F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B718F3512BD7360100E60F9E /* Build configuration list for PBXNativeTarget "ZumaranUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B718F3522BD7360100E60F9E /* Debug */,
+				B718F3532BD7360100E60F9E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		B77954F02BD73D6E00A2535A /* AgendaModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				B77954F12BD73D6E00A2535A /* AgendaModel.xcdatamodel */,
+			);
+			currentVersion = B77954F12BD73D6E00A2535A /* AgendaModel.xcdatamodel */;
+			path = AgendaModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = B718F3192BD7360000E60F9E /* Project object */;
+}

@@ -1,0 +1,6 @@
+framework module Pods_Zumaran {
+  umbrella header "Pods-Zumaran-umbrella.h"
+
+  export *
+  module * { export * }
+}

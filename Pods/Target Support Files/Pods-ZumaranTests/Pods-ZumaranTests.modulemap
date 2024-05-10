@@ -1,0 +1,6 @@
+framework module Pods_ZumaranTests {
+  umbrella header "Pods-ZumaranTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

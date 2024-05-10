@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="22522" systemVersion="22G513" minimumToolsVersion="Automatic" sourceLanguage="Swift" usedWithSwiftData="YES" userDefinedModelVersionIdentifier="">
+    <entity name="AgendaEntity" representedClassName="AgendaEntity" syncable="YES" codeGenerationType="class">
+        <attribute name="apellido" optional="YES" attributeType="String"/>
+        <attribute name="celular" optional="YES" attributeType="String"/>
+        <attribute name="codigo" optional="YES" attributeType="String"/>
+        <attribute name="nombre" optional="YES" attributeType="String"/>
+        <attribute name="operador" optional="YES" attributeType="String"/>
+    </entity>
+</model>

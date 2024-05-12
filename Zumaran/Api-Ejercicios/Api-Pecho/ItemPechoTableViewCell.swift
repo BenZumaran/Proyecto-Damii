@@ -13,6 +13,9 @@ class ItemPechoTableViewCell: UITableViewCell {
     @IBOutlet weak var lblTipos: UILabel!
     @IBOutlet weak var lblInstruccion: UILabel!
     @IBOutlet weak var lblDificultad: UILabel!
+    
+    @IBOutlet weak var imgPecho: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

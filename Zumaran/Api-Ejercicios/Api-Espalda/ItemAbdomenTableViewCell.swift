@@ -15,6 +15,7 @@ class ItemAbdomenTableViewCell: UITableViewCell {
     @IBOutlet weak var lblInstruccion: UILabel!
     @IBOutlet weak var lblDificultad: UILabel!
     
+    @IBOutlet weak var imgAbdomen: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

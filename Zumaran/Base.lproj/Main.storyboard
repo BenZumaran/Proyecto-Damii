@@ -600,7 +600,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Ns2-Ue-f8T" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4216" y="402"/>
+            <point key="canvasLocation" x="3727" y="570"/>
         </scene>
         <!--Producto View Controller-->
         <scene sceneID="Nv7-mE-huu">
@@ -740,7 +740,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="G98-uL-mDf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="7896.9465648854957" y="380.98591549295776"/>
+            <point key="canvasLocation" x="5799" y="479"/>
         </scene>
         <!--Brazos View Controller-->
         <scene sceneID="7mS-Rf-2MC">
@@ -817,7 +817,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="erU-ca-vP4" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9012.9770992366412" y="243.66197183098592"/>
+            <point key="canvasLocation" x="6708" y="328"/>
         </scene>
         <!--Pecho View Controller-->
         <scene sceneID="Ehh-HU-wq7">
@@ -893,7 +893,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="xId-e2-pXT" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="10174.809160305344" y="259.85915492957747"/>
+            <point key="canvasLocation" x="7727" y="285"/>
         </scene>
         <!--Pierna View Controller-->
         <scene sceneID="jun-RQ-vIe">
@@ -968,7 +968,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="as1-Mc-ptf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="11270.992366412213" y="588.73239436619724"/>
+            <point key="canvasLocation" x="8257" y="969"/>
         </scene>
         <!--Abdomen View Controller-->
         <scene sceneID="H26-LP-eLZ">
@@ -1044,7 +1044,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="UKc-OE-deE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="9048.0916030534354" y="958.45070422535218"/>
+            <point key="canvasLocation" x="7176" y="936"/>
         </scene>
         <!--Gluteos View Controller-->
         <scene sceneID="2SG-0d-BXW">
@@ -1120,7 +1120,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="7Hk-1L-V5m" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="8212.9770992366412" y="1104.9295774647887"/>
+            <point key="canvasLocation" x="6492" y="1125"/>
         </scene>
         <!--Item-->
         <scene sceneID="sCK-HG-eYP">
@@ -1139,7 +1139,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="S8A-Z8-T6g" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="6970.2290076335876" y="288.73239436619718"/>
+            <point key="canvasLocation" x="4929" y="460"/>
         </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="nA2-TP-kHg">
@@ -1148,6 +1148,7 @@
                     <toolbarItems/>
                     <navigationItem key="navigationItem" id="W9z-OG-0bi"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="bPQ-Th-3qP">
+                        <rect key="frame" x="0.0" y="0.0" width="1000" height="1000"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                     </tabBar>
@@ -1158,11 +1159,11 @@
                 </tabBarController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="hta-Je-I8L" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3187" y="177"/>
+            <point key="canvasLocation" x="2807" y="635"/>
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gNV-OT-jDp"/>
+        <segue reference="qvA-lR-hJ7"/>
         <segue reference="DrR-Vd-hhy"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1179,13 +1180,13 @@
             <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
         </systemColor>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
     </resources>
 </document>

@@ -7,6 +7,8 @@
 
 import UIKit
 import Alamofire
+import AlamofireImage
+import Kingfisher
 
 class BrazosViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
    
@@ -49,7 +51,7 @@ class BrazosViewController: UIViewController, UITableViewDataSource, UITableView
             p3.lblTipos.text = "Tipós : \(listaEjercicios[indexPath.row].tipo)"
             p3.lblDificultad.text = "Dificultad : \(listaEjercicios[indexPath.row].dificultad)"
             p3.lblInstruccion.text = "Instruccion : \(listaEjercicios[indexPath.row].instruccion)"
-            
+            p3.imgBrazos.kf.setImage(with: URL(string: listaEjercicios[indexPath.row].imagen))
             return p3
            
         }

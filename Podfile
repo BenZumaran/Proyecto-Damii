@@ -20,5 +20,7 @@ pod 'DropDown'
 pod 'Alamofire'
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
+pod 'Kingfisher'
+pod 'AlamofireImage', '~> 4.1' 
 
 end

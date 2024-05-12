@@ -7,6 +7,7 @@
 
 import UIKit
 import Alamofire
+import AlamofireImage
 
 class MedicamentoViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
     
@@ -73,6 +74,7 @@ class MedicamentoViewController: UIViewController, UITableViewDataSource, UITabl
         var musculo:String
         var dificultad:String
         var instruccion:String
+        var imagen:String
     }
 
     

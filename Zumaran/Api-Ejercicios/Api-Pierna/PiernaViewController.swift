@@ -13,8 +13,6 @@ class PiernaViewController: UIViewController, UITableViewDataSource, UITableView
     @IBOutlet weak var tbPierna: UITableView!
     
     
-    
-    
     var listaEjercicios:[Ejercicio]=[]
     var index = -1
     

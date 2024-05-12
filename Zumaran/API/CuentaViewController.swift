@@ -40,12 +40,14 @@ class CuentaViewController: UIViewController {
             data,error in
             if let info = data {
                 print("Correcto")
+                self.mostrarAlertaRegistroExitoso()
                 
                 let uid = info.user.uid
                 
                 self.grabarEmpleado(nom: vNombre, ape: vApe, edad: vEdad, UID: uid)
             } else {
                 print("Error en el registro")
+                self.mostrarAlertaErrorRegistro()
             }
         }
     }
@@ -61,8 +63,21 @@ class CuentaViewController: UIViewController {
                 print("Error en el registro de empleado")
             } else{
                 print("Registro ok")
+                
             }
         }
     }
+    
+    func mostrarAlertaRegistroExitoso() {
+         let alert = UIAlertController(title: "Registro Exitoso", message: "¡Tu cuenta ha sido creada con éxito!", preferredStyle: .alert)
+         alert.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: nil))
+         present(alert, animated: true, completion: nil)
+     }
+
+     func mostrarAlertaErrorRegistro() {
+         let alert = UIAlertController(title: "Error en el Registro", message: "Hubo un error al crear tu cuenta. Por favor, inténtalo nuevamente más tarde.", preferredStyle: .alert)
+         alert.addAction(UIAlertAction(title: "Aceptar", style: .default, handler: nil))
+         present(alert, animated: true, completion: nil)
+     }
 }
 

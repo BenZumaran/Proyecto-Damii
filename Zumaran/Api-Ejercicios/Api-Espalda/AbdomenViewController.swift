@@ -45,7 +45,11 @@ class AbdomenViewController: UIViewController, UITableViewDataSource, UITableVie
         }
         
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
+
             let p3 = tbEspalda.dequeueReusableCell(withIdentifier: "iteAbdomen") as! ItemAbdomenTableViewCell
+
+            
+
             p3.lblNombreEspalda.text = "Nombre : \(listaEjercicios[indexPath.row].nombre )"
             p3.lblTipos.text = "Tipós : \(listaEjercicios[indexPath.row].tipo)"
             p3.lblDificultad.text = "Dificultad : \(listaEjercicios[indexPath.row].dificultad)"

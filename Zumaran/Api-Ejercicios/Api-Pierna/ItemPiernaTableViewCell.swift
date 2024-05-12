@@ -9,6 +9,10 @@ import UIKit
 
 class ItemPiernaTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var lblNombrePierna: UILabel!
+    @IBOutlet weak var lblTipos: UILabel!
+    @IBOutlet weak var lblInstruccion: UILabel!
+    @IBOutlet weak var lblDificultad: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

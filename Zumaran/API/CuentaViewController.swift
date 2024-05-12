@@ -21,6 +21,9 @@ class CuentaViewController: UIViewController {
         
     }
     
+    @IBAction func btnVolver(_ sender: UIButton) {
+        dismiss(animated: true)
+    }
     @IBAction func btnGrabar(_ sender: UIButton) {
         let nom = txtNombre.text ?? "",
         correo = txtCorreo.text ?? "",

@@ -31,7 +31,7 @@ class AbdomenViewController: UIViewController, UITableViewDataSource, UITableVie
 
     
     func traerJSON(){
-        AF.request("https://suscripcion-node-mysql-production.up.railway.app/api/ejercicio").responseDecodable(of:[Ejercicio].self){ x in
+        AF.request("https://suscripcion-node-mysql-production.up.railway.app/api/ejercicio/musculo/abdomen").responseDecodable(of:[Ejercicio].self){ x in
             //Validar si data es null
             guard let info = x.value else { return }
             self.listaEjercicios = info
@@ -45,7 +45,7 @@ class AbdomenViewController: UIViewController, UITableViewDataSource, UITableVie
         }
         
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-            let p3 = tbEspalda.dequeueReusableCell(withIdentifier: "itemEspalda") as! ItemAbdomenTableViewCell
+            let p3 = tbEspalda.dequeueReusableCell(withIdentifier: "iteAbdomen") as! ItemAbdomenTableViewCell
             p3.lblNombreEspalda.text = "Nombre : \(listaEjercicios[indexPath.row].nombre )"
             p3.lblTipos.text = "Tipós : \(listaEjercicios[indexPath.row].tipo)"
             p3.lblDificultad.text = "Dificultad : \(listaEjercicios[indexPath.row].dificultad)"

@@ -1,10 +1,3 @@
-//
-//  CuentaViewController.swift
-//  Zumaran
-//
-//  Created by DAMII on 5/05/24.
-//
-
 import UIKit
 import Alamofire
 import FirebaseFirestore
@@ -17,7 +10,7 @@ class CuentaViewController: UIViewController {
     @IBOutlet weak var txtNombre: UITextField!
     
     @IBOutlet weak var txtApellido: UITextField!
-    @IBOutlet weak var txtHijos: UITextField!
+    @IBOutlet weak var txtEdad: UITextField!
     
     @IBOutlet weak var txtClave: UITextField!
     
@@ -31,15 +24,15 @@ class CuentaViewController: UIViewController {
     @IBAction func btnGrabar(_ sender: UIButton) {
         let nom = txtNombre.text ?? "",
         correo = txtCorreo.text ?? "",
-        hijos = Int(txtHijos.text ?? "") ?? 0,
+        edad = Int(txtEdad.text ?? "") ?? 0,
         clave = txtClave.text ?? "",
         ape = txtApellido.text ?? ""
-        grabarCuenta(vNombre: nom, vApe: ape, vHijos: hijos, vCorre: correo, vClave: clave)
+        grabarCuenta(vNombre: nom, vApe: ape, vEdad: edad, vCorre: correo, vClave: clave)
         
         
     }
     
-    func grabarCuenta(vNombre:String, vApe:String, vHijos:Int, vCorre:String, vClave:String){
+    func grabarCuenta(vNombre:String, vApe:String, vEdad:Int, vCorre:String, vClave:String){
         Auth.auth().createUser(withEmail: vCorre, password: vClave){
             data,error in
             if let info = data {
@@ -47,18 +40,18 @@ class CuentaViewController: UIViewController {
                 
                 let uid = info.user.uid
                 
-                self.grabarEmpleado(nom: vNombre, ape: vApe, hijos: vHijos, UID: uid)
+                self.grabarEmpleado(nom: vNombre, ape: vApe, edad: vEdad, UID: uid)
             } else {
                 print("Error en el registro")
             }
         }
     }
-    func grabarEmpleado(nom:String, ape:String, hijos:Int, UID:String){
+    func grabarEmpleado(nom:String, ape:String, edad:Int, UID:String){
         let BD = Firestore.firestore()
         BD.collection("empleado").document(UID).setData([
             "nombre":nom,
             "apellido":ape,
-            "hijos":hijos
+            "edad":edad
         ]){
             result in
             if let info=result{
@@ -69,3 +62,4 @@ class CuentaViewController: UIViewController {
         }
     }
 }
+

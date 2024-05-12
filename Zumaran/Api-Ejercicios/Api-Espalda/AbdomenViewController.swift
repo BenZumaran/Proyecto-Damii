@@ -46,7 +46,7 @@ class AbdomenViewController: UIViewController, UITableViewDataSource, UITableVie
         
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
 
-            let p3 = tbEspalda.dequeueReusableCell(withIdentifier: "iteAbdomen") as! ItemAbdomenTableViewCell
+            let p3 = tbEspalda.dequeueReusableCell(withIdentifier: "itemAbdomen") as! ItemAbdomenTableViewCell
 
             
 

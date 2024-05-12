@@ -47,10 +47,9 @@ class AbdomenViewController: UIViewController, UITableViewDataSource, UITableVie
         func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
             let p3 = tbEspalda.dequeueReusableCell(withIdentifier: "itemEspalda") as! ItemAbdomenTableViewCell
             p3.lblNombreEspalda.text = "Nombre : \(listaEjercicios[indexPath.row].nombre )"
-            
             p3.lblTipos.text = "Tipós : \(listaEjercicios[indexPath.row].tipo)"
             p3.lblDificultad.text = "Dificultad : \(listaEjercicios[indexPath.row].dificultad)"
-            p3.lblInstruccion.text = "Instrucciopn : \(listaEjercicios[indexPath.row].instruccion)"
+            p3.lblInstruccion.text = "Instruccion : \(listaEjercicios[indexPath.row].instruccion)"
             
             return p3
            

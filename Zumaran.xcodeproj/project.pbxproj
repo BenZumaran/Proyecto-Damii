@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		4E9FE991AEB98D5F867C51D2 /* Pods_Zumaran_ZumaranUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EDD47F39B107D5B0C1DC0860 /* Pods_Zumaran_ZumaranUITests.framework */; };
+		B70A0C6D2BF142D4004B5819 /* ImcViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B70A0C6C2BF142D4004B5819 /* ImcViewController.swift */; };
 		B7168DB42BE092E400035DE1 /* LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7168DB32BE092E400035DE1 /* LoginViewController.swift */; };
 		B7168DB62BE098F000035DE1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = B7168DB52BE098F000035DE1 /* GoogleService-Info.plist */; };
 		B718F3252BD7360000E60F9E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B718F3242BD7360000E60F9E /* AppDelegate.swift */; };
@@ -73,6 +74,7 @@
 		8F9DC4ECE2280C659BC2F5E1 /* Pods_ZumaranTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZumaranTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		973A6B946DC89CEDDB73A110 /* Pods-ZumaranTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZumaranTests.debug.xcconfig"; path = "Target Support Files/Pods-ZumaranTests/Pods-ZumaranTests.debug.xcconfig"; sourceTree = "<group>"; };
 		A831317FA77F9FDC7205174B /* Pods-Zumaran-ZumaranUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zumaran-ZumaranUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zumaran-ZumaranUITests/Pods-Zumaran-ZumaranUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		B70A0C6C2BF142D4004B5819 /* ImcViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImcViewController.swift; sourceTree = "<group>"; };
 		B7168DB32BE092E400035DE1 /* LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginViewController.swift; sourceTree = "<group>"; };
 		B7168DB52BE098F000035DE1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		B718F3212BD7360000E60F9E /* Zumaran.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Zumaran.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -208,6 +210,7 @@
 				B77954F32BD7406E00A2535A /* ControladorProducto.swift */,
 				B77954F52BD740B100A2535A /* Agenda.swift */,
 				B7168DB52BE098F000035DE1 /* GoogleService-Info.plist */,
+				B70A0C6C2BF142D4004B5819 /* ImcViewController.swift */,
 			);
 			path = Zumaran;
 			sourceTree = "<group>";
@@ -558,6 +561,7 @@
 				B7C787292BDECFB800EB9E52 /* Medicamento.swift in Sources */,
 				B74889232BF0A15700EC77CA /* ItemPiernaTableViewCell.swift in Sources */,
 				B7787E4B2BE812AC00F58D98 /* Producto.swift in Sources */,
+				B70A0C6D2BF142D4004B5819 /* ImcViewController.swift in Sources */,
 				B7C7872B2BDED0F100EB9E52 /* MedicamentoViewController.swift in Sources */,
 				B748891F2BF0A12700EC77CA /* ItemGluteosTableViewCell.swift in Sources */,
 				B748892B2BF0A25700EC77CA /* PiernaViewController.swift in Sources */,

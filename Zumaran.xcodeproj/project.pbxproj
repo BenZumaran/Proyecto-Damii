@@ -19,6 +19,12 @@
 		B718F33C2BD7360100E60F9E /* ZumaranTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B718F33B2BD7360100E60F9E /* ZumaranTests.swift */; };
 		B718F3462BD7360100E60F9E /* ZumaranUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B718F3452BD7360100E60F9E /* ZumaranUITests.swift */; };
 		B718F3482BD7360100E60F9E /* ZumaranUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B718F3472BD7360100E60F9E /* ZumaranUITestsLaunchTests.swift */; };
+		B74889132BF0955200EC77CA /* BrazosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74889122BF0955200EC77CA /* BrazosViewController.swift */; };
+		B74889152BF095F700EC77CA /* ItemBrazosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74889142BF095F700EC77CA /* ItemBrazosTableViewCell.swift */; };
+		B748891D2BF0A10000EC77CA /* ItemEspaldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748891C2BF0A10000EC77CA /* ItemEspaldaTableViewCell.swift */; };
+		B748891F2BF0A12700EC77CA /* ItemGluteosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748891E2BF0A12700EC77CA /* ItemGluteosTableViewCell.swift */; };
+		B74889212BF0A14200EC77CA /* ItemPechoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74889202BF0A14200EC77CA /* ItemPechoTableViewCell.swift */; };
+		B74889232BF0A15700EC77CA /* ItemPiernaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74889222BF0A15700EC77CA /* ItemPiernaTableViewCell.swift */; };
 		B75F9D152BE06F1E00CE8358 /* CrudMedicamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F9D142BE06F1E00CE8358 /* CrudMedicamentoViewController.swift */; };
 		B7787E452BE8085700F58D98 /* CuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7787E442BE8085700F58D98 /* CuentaViewController.swift */; };
 		B7787E472BE810F200F58D98 /* ProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7787E462BE810F200F58D98 /* ProductoViewController.swift */; };
@@ -78,6 +84,12 @@
 		B718F3412BD7360100E60F9E /* ZumaranUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZumaranUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B718F3452BD7360100E60F9E /* ZumaranUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumaranUITests.swift; sourceTree = "<group>"; };
 		B718F3472BD7360100E60F9E /* ZumaranUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumaranUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B74889122BF0955200EC77CA /* BrazosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrazosViewController.swift; sourceTree = "<group>"; };
+		B74889142BF095F700EC77CA /* ItemBrazosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBrazosTableViewCell.swift; sourceTree = "<group>"; };
+		B748891C2BF0A10000EC77CA /* ItemEspaldaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEspaldaTableViewCell.swift; sourceTree = "<group>"; };
+		B748891E2BF0A12700EC77CA /* ItemGluteosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemGluteosTableViewCell.swift; sourceTree = "<group>"; };
+		B74889202BF0A14200EC77CA /* ItemPechoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPechoTableViewCell.swift; sourceTree = "<group>"; };
+		B74889222BF0A15700EC77CA /* ItemPiernaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPiernaTableViewCell.swift; sourceTree = "<group>"; };
 		B75F9D142BE06F1E00CE8358 /* CrudMedicamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrudMedicamentoViewController.swift; sourceTree = "<group>"; };
 		B7787E442BE8085700F58D98 /* CuentaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaViewController.swift; sourceTree = "<group>"; };
 		B7787E462BE810F200F58D98 /* ProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoViewController.swift; sourceTree = "<group>"; };
@@ -173,6 +185,7 @@
 		B718F3232BD7360000E60F9E /* Zumaran */ = {
 			isa = PBXGroup;
 			children = (
+				B74889162BF09FDB00EC77CA /* Api-Ejercicios */,
 				B7C787272BDECF6D00EB9E52 /* API */,
 				B718F3242BD7360000E60F9E /* AppDelegate.swift */,
 				B718F3262BD7360000E60F9E /* SceneDelegate.swift */,
@@ -206,6 +219,59 @@
 				B718F3472BD7360100E60F9E /* ZumaranUITestsLaunchTests.swift */,
 			);
 			path = ZumaranUITests;
+			sourceTree = "<group>";
+		};
+		B74889112BF094E100EC77CA /* Api-Brazos */ = {
+			isa = PBXGroup;
+			children = (
+				B74889122BF0955200EC77CA /* BrazosViewController.swift */,
+				B74889142BF095F700EC77CA /* ItemBrazosTableViewCell.swift */,
+			);
+			path = "Api-Brazos";
+			sourceTree = "<group>";
+		};
+		B74889162BF09FDB00EC77CA /* Api-Ejercicios */ = {
+			isa = PBXGroup;
+			children = (
+				B748891A2BF0A0D400EC77CA /* Api-Espalda */,
+				B74889192BF0A0C500EC77CA /* APi-Gluteos */,
+				B74889182BF0A09D00EC77CA /* Api-Pecho */,
+				B74889172BF0A08B00EC77CA /* Api-Pierna */,
+				B74889112BF094E100EC77CA /* Api-Brazos */,
+			);
+			path = "Api-Ejercicios";
+			sourceTree = "<group>";
+		};
+		B74889172BF0A08B00EC77CA /* Api-Pierna */ = {
+			isa = PBXGroup;
+			children = (
+				B74889222BF0A15700EC77CA /* ItemPiernaTableViewCell.swift */,
+			);
+			path = "Api-Pierna";
+			sourceTree = "<group>";
+		};
+		B74889182BF0A09D00EC77CA /* Api-Pecho */ = {
+			isa = PBXGroup;
+			children = (
+				B74889202BF0A14200EC77CA /* ItemPechoTableViewCell.swift */,
+			);
+			path = "Api-Pecho";
+			sourceTree = "<group>";
+		};
+		B74889192BF0A0C500EC77CA /* APi-Gluteos */ = {
+			isa = PBXGroup;
+			children = (
+				B748891E2BF0A12700EC77CA /* ItemGluteosTableViewCell.swift */,
+			);
+			path = "APi-Gluteos";
+			sourceTree = "<group>";
+		};
+		B748891A2BF0A0D400EC77CA /* Api-Espalda */ = {
+			isa = PBXGroup;
+			children = (
+				B748891C2BF0A10000EC77CA /* ItemEspaldaTableViewCell.swift */,
+			);
+			path = "Api-Espalda";
 			sourceTree = "<group>";
 		};
 		B7C787272BDECF6D00EB9E52 /* API */ = {
@@ -471,18 +537,24 @@
 				B718F3252BD7360000E60F9E /* AppDelegate.swift in Sources */,
 				B75F9D152BE06F1E00CE8358 /* CrudMedicamentoViewController.swift in Sources */,
 				B7787E492BE8112C00F58D98 /* ItemProductoTableViewCell.swift in Sources */,
+				B748891D2BF0A10000EC77CA /* ItemEspaldaTableViewCell.swift in Sources */,
 				B77954F42BD7406E00A2535A /* ControladorProducto.swift in Sources */,
 				B77954EF2BD739B700A2535A /* ItemTableViewCell.swift in Sources */,
+				B74889212BF0A14200EC77CA /* ItemPechoTableViewCell.swift in Sources */,
 				B7787E472BE810F200F58D98 /* ProductoViewController.swift in Sources */,
 				B7C787292BDECFB800EB9E52 /* Medicamento.swift in Sources */,
+				B74889232BF0A15700EC77CA /* ItemPiernaTableViewCell.swift in Sources */,
 				B7787E4B2BE812AC00F58D98 /* Producto.swift in Sources */,
 				B7C7872B2BDED0F100EB9E52 /* MedicamentoViewController.swift in Sources */,
+				B748891F2BF0A12700EC77CA /* ItemGluteosTableViewCell.swift in Sources */,
 				B77954F22BD73D6E00A2535A /* AgendaModel.xcdatamodeld in Sources */,
 				B7787E452BE8085700F58D98 /* CuentaViewController.swift in Sources */,
 				B7C7872F2BDEDDCD00EB9E52 /* RegistrarMedicamentoViewController.swift in Sources */,
 				B7C7872D2BDED12300EB9E52 /* ItemMedicamentoTableViewCell.swift in Sources */,
 				B77954EB2BD7373A00A2535A /* AgregarViewController.swift in Sources */,
 				B718F3272BD7360000E60F9E /* SceneDelegate.swift in Sources */,
+				B74889152BF095F700EC77CA /* ItemBrazosTableViewCell.swift in Sources */,
+				B74889132BF0955200EC77CA /* BrazosViewController.swift in Sources */,
 				B77954F62BD740B100A2535A /* Agenda.swift in Sources */,
 				B7C8A7832BEDB88F00777712 /* Ejercicio.swift in Sources */,
 			);

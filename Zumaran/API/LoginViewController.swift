@@ -24,23 +24,22 @@ class LoginViewController: UIViewController {
     }
     
     func validarUsuario(vLogin:String, vClave:String){
-        
         Auth.auth().signIn(withEmail: vLogin, password: vClave){
             response,error in
             //Validar parametro response
             if let data = response {
                 print("Login correcto")
                 print("UUID : \(data.user.uid)")
-                      } else {
-                    print(error!.localizedDescription)
+                
+                // Navegar a la vista Home
+                DispatchQueue.main.async {
+                    self.performSegue(withIdentifier: "irHome", sender: nil)
                 }
-            
+            } else {
+                print(error!.localizedDescription)
+            }
         }
-        
-        
-        
     }
-    
     @IBAction func btnCrearCuenta(_ sender: UIButton) {
         performSegue(withIdentifier: "crearCuenta", sender: nil)
     }

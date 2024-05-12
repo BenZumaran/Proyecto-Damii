@@ -13,6 +13,7 @@ class ItemGluteosTableViewCell: UITableViewCell {
     @IBOutlet weak var lblTipos: UILabel!
     @IBOutlet weak var lblInstruccion: UILabel!
     @IBOutlet weak var lblDificultad: UILabel!
+    @IBOutlet weak var imgGluteos: UIImageView!
     
     override func awakeFromNib() {
         super.awakeFromNib()

@@ -13,6 +13,9 @@ class ItemPiernaTableViewCell: UITableViewCell {
     @IBOutlet weak var lblTipos: UILabel!
     @IBOutlet weak var lblInstruccion: UILabel!
     @IBOutlet weak var lblDificultad: UILabel!
+    
+    @IBOutlet weak var imgPierna: UIImageView!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

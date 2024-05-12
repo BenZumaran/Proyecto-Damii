@@ -7,6 +7,8 @@
 
 import UIKit
 import Alamofire
+import Kingfisher
+
 class AbdomenViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
 
  
@@ -55,6 +57,7 @@ class AbdomenViewController: UIViewController, UITableViewDataSource, UITableVie
             p3.lblDificultad.text = "Dificultad : \(listaEjercicios[indexPath.row].dificultad)"
             p3.lblInstruccion.text = "Instruccion : \(listaEjercicios[indexPath.row].instruccion)"
             
+            p3.imgAbdomen.kf.setImage(with: URL(string: listaEjercicios[indexPath.row].imagen))
             return p3
            
         }

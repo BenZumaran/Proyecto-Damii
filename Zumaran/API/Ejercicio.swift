@@ -14,4 +14,5 @@ var idEjercicio:Int
     var musculo:String
     var dificultad:String
     var instruccion:String
+    var imagen:String
 }

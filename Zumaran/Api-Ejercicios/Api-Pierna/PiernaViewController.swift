@@ -8,6 +8,8 @@
 import UIKit
 import Alamofire
 
+import Kingfisher
+
 class PiernaViewController: UIViewController, UITableViewDataSource, UITableViewDelegate  {
 
     @IBOutlet weak var tbPierna: UITableView!
@@ -50,7 +52,7 @@ class PiernaViewController: UIViewController, UITableViewDataSource, UITableView
             p3.lblTipos.text = "Tipós : \(listaEjercicios[indexPath.row].tipo)"
             p3.lblDificultad.text = "Dificultad : \(listaEjercicios[indexPath.row].dificultad)"
             p3.lblInstruccion.text = "Instrucciopn : \(listaEjercicios[indexPath.row].instruccion)"
-            
+            p3.imgPierna.kf.setImage(with: URL(string: listaEjercicios[indexPath.row].imagen))
             return p3
            
         }

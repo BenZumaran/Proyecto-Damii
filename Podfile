@@ -20,5 +20,6 @@ pod 'DropDown'
 pod 'Alamofire'
 pod 'Firebase/Auth'
 pod 'Firebase/Firestore'
+pod 'Kingfisher'
 
 end

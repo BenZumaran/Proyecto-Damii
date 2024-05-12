@@ -989,6 +989,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" red="1" green="0.73996829259999997" blue="0.4146485144" alpha="0.84705882349999995" colorSpace="custom" customColorSpace="displayP3"/>
                                         <connections>
+                                            <outlet property="imgPecho" destination="EQx-WH-GiP" id="VWO-xt-V2O"/>
                                             <outlet property="lblDificultad" destination="U7F-mk-45W" id="Lvf-X8-0FT"/>
                                             <outlet property="lblInstruccion" destination="Ddf-oa-XxR" id="Wbq-gf-tkb"/>
                                             <outlet property="lblNombrePecho" destination="mfm-6y-dWW" id="KvE-sl-EVr"/>
@@ -1066,6 +1067,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" systemColor="systemIndigoColor"/>
                                         <connections>
+                                            <outlet property="imgPierna" destination="O1J-cR-2ZE" id="kdp-oW-q2Y"/>
                                             <outlet property="lblDificultad" destination="syZ-z0-SOx" id="W6o-I0-rQm"/>
                                             <outlet property="lblInstruccion" destination="lCJ-j8-A4u" id="o0Y-8V-5oJ"/>
                                             <outlet property="lblNombrePierna" destination="2TS-m2-uLn" id="8Cf-af-ww6"/>
@@ -1144,6 +1146,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" systemColor="systemCyanColor"/>
                                         <connections>
+                                            <outlet property="imgAbdomen" destination="bbr-i8-wmZ" id="7Np-Io-qkf"/>
                                             <outlet property="lblDificultad" destination="BLy-ox-ARb" id="PcE-bq-vs0"/>
                                             <outlet property="lblInstruccion" destination="1Rh-fx-NhV" id="AUS-OY-ssf"/>
                                             <outlet property="lblNombreEspalda" destination="K3y-nh-EJZ" id="gtE-xY-eBM"/>
@@ -1221,6 +1224,7 @@
                                         </tableViewCellContentView>
                                         <color key="backgroundColor" systemColor="systemYellowColor"/>
                                         <connections>
+                                            <outlet property="imgGluteos" destination="YJ8-1X-kFz" id="F7h-xJ-lxo"/>
                                             <outlet property="lblDificultad" destination="F1L-g9-G8o" id="nUj-pA-cNE"/>
                                             <outlet property="lblInstruccion" destination="3nU-cp-bgk" id="5xj-b9-9ri"/>
                                             <outlet property="lblNombreGluteos" destination="Xjf-3g-ZbV" id="8Xj-on-ewc"/>
@@ -1264,7 +1268,7 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="gNV-OT-jDp"/>
+        <segue reference="qvA-lR-hJ7"/>
         <segue reference="DrR-Vd-hhy"/>
     </inferredMetricsTieBreakers>
     <resources>
@@ -1291,19 +1295,19 @@
             <color red="0.1960784314" green="0.67843137249999996" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemGray6Color">
-            <color red="0.94901960780000005" green="0.94901960780000005" blue="0.96862745100000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="0.94901960784313721" green="0.94901960784313721" blue="0.96862745098039216" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemIndigoColor">
             <color red="0.34509803919999998" green="0.33725490200000002" blue="0.83921568629999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemOrangeColor">
-            <color red="1" green="0.58431372550000005" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.58431372549019611" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemPinkColor">
-            <color red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemRedColor">
-            <color red="1" green="0.23137254900000001" blue="0.18823529410000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </systemColor>
         <systemColor name="systemYellowColor">
             <color red="1" green="0.80000000000000004" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>

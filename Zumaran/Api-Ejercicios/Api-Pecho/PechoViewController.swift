@@ -30,7 +30,7 @@ class PechoViewController: UIViewController , UITableViewDataSource, UITableView
         
         
         func traerJSON(){
-            AF.request("https://suscripcion-node-mysql-production.up.railway.app/api/ejercicio").responseDecodable(of:[Ejercicio].self){ x in
+            AF.request("https://suscripcion-node-mysql-production.up.railway.app/api/ejercicio/musculo/pecho").responseDecodable(of:[Ejercicio].self){ x in
                 //Validar si data es null
                 guard let info = x.value else { return }
                 self.listaEjercicios = info

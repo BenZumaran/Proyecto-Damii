@@ -9,6 +9,11 @@ import UIKit
 
 class ItemGluteosTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var lblNombreGluteos: UILabel!
+    @IBOutlet weak var lblTipos: UILabel!
+    @IBOutlet weak var lblInstruccion: UILabel!
+    @IBOutlet weak var lblDificultad: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code

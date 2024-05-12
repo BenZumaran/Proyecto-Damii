@@ -21,10 +21,14 @@
 		B718F3482BD7360100E60F9E /* ZumaranUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B718F3472BD7360100E60F9E /* ZumaranUITestsLaunchTests.swift */; };
 		B74889132BF0955200EC77CA /* BrazosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74889122BF0955200EC77CA /* BrazosViewController.swift */; };
 		B74889152BF095F700EC77CA /* ItemBrazosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74889142BF095F700EC77CA /* ItemBrazosTableViewCell.swift */; };
-		B748891D2BF0A10000EC77CA /* ItemEspaldaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748891C2BF0A10000EC77CA /* ItemEspaldaTableViewCell.swift */; };
+		B748891D2BF0A10000EC77CA /* ItemAbdomenTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748891C2BF0A10000EC77CA /* ItemAbdomenTableViewCell.swift */; };
 		B748891F2BF0A12700EC77CA /* ItemGluteosTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748891E2BF0A12700EC77CA /* ItemGluteosTableViewCell.swift */; };
 		B74889212BF0A14200EC77CA /* ItemPechoTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74889202BF0A14200EC77CA /* ItemPechoTableViewCell.swift */; };
 		B74889232BF0A15700EC77CA /* ItemPiernaTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74889222BF0A15700EC77CA /* ItemPiernaTableViewCell.swift */; };
+		B74889252BF0A20000EC77CA /* AbdomenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74889242BF0A20000EC77CA /* AbdomenViewController.swift */; };
+		B74889272BF0A22200EC77CA /* GluteosViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74889262BF0A22200EC77CA /* GluteosViewController.swift */; };
+		B74889292BF0A24300EC77CA /* PechoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B74889282BF0A24300EC77CA /* PechoViewController.swift */; };
+		B748892B2BF0A25700EC77CA /* PiernaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B748892A2BF0A25700EC77CA /* PiernaViewController.swift */; };
 		B75F9D152BE06F1E00CE8358 /* CrudMedicamentoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B75F9D142BE06F1E00CE8358 /* CrudMedicamentoViewController.swift */; };
 		B7787E452BE8085700F58D98 /* CuentaViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7787E442BE8085700F58D98 /* CuentaViewController.swift */; };
 		B7787E472BE810F200F58D98 /* ProductoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B7787E462BE810F200F58D98 /* ProductoViewController.swift */; };
@@ -86,10 +90,14 @@
 		B718F3472BD7360100E60F9E /* ZumaranUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZumaranUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		B74889122BF0955200EC77CA /* BrazosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrazosViewController.swift; sourceTree = "<group>"; };
 		B74889142BF095F700EC77CA /* ItemBrazosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemBrazosTableViewCell.swift; sourceTree = "<group>"; };
-		B748891C2BF0A10000EC77CA /* ItemEspaldaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemEspaldaTableViewCell.swift; sourceTree = "<group>"; };
+		B748891C2BF0A10000EC77CA /* ItemAbdomenTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemAbdomenTableViewCell.swift; sourceTree = "<group>"; };
 		B748891E2BF0A12700EC77CA /* ItemGluteosTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemGluteosTableViewCell.swift; sourceTree = "<group>"; };
 		B74889202BF0A14200EC77CA /* ItemPechoTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPechoTableViewCell.swift; sourceTree = "<group>"; };
 		B74889222BF0A15700EC77CA /* ItemPiernaTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemPiernaTableViewCell.swift; sourceTree = "<group>"; };
+		B74889242BF0A20000EC77CA /* AbdomenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AbdomenViewController.swift; sourceTree = "<group>"; };
+		B74889262BF0A22200EC77CA /* GluteosViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GluteosViewController.swift; sourceTree = "<group>"; };
+		B74889282BF0A24300EC77CA /* PechoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PechoViewController.swift; sourceTree = "<group>"; };
+		B748892A2BF0A25700EC77CA /* PiernaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PiernaViewController.swift; sourceTree = "<group>"; };
 		B75F9D142BE06F1E00CE8358 /* CrudMedicamentoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrudMedicamentoViewController.swift; sourceTree = "<group>"; };
 		B7787E442BE8085700F58D98 /* CuentaViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CuentaViewController.swift; sourceTree = "<group>"; };
 		B7787E462BE810F200F58D98 /* ProductoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductoViewController.swift; sourceTree = "<group>"; };
@@ -246,6 +254,7 @@
 			isa = PBXGroup;
 			children = (
 				B74889222BF0A15700EC77CA /* ItemPiernaTableViewCell.swift */,
+				B748892A2BF0A25700EC77CA /* PiernaViewController.swift */,
 			);
 			path = "Api-Pierna";
 			sourceTree = "<group>";
@@ -254,6 +263,7 @@
 			isa = PBXGroup;
 			children = (
 				B74889202BF0A14200EC77CA /* ItemPechoTableViewCell.swift */,
+				B74889282BF0A24300EC77CA /* PechoViewController.swift */,
 			);
 			path = "Api-Pecho";
 			sourceTree = "<group>";
@@ -262,6 +272,7 @@
 			isa = PBXGroup;
 			children = (
 				B748891E2BF0A12700EC77CA /* ItemGluteosTableViewCell.swift */,
+				B74889262BF0A22200EC77CA /* GluteosViewController.swift */,
 			);
 			path = "APi-Gluteos";
 			sourceTree = "<group>";
@@ -269,7 +280,8 @@
 		B748891A2BF0A0D400EC77CA /* Api-Espalda */ = {
 			isa = PBXGroup;
 			children = (
-				B748891C2BF0A10000EC77CA /* ItemEspaldaTableViewCell.swift */,
+				B748891C2BF0A10000EC77CA /* ItemAbdomenTableViewCell.swift */,
+				B74889242BF0A20000EC77CA /* AbdomenViewController.swift */,
 			);
 			path = "Api-Espalda";
 			sourceTree = "<group>";
@@ -534,10 +546,11 @@
 			files = (
 				B7168DB42BE092E400035DE1 /* LoginViewController.swift in Sources */,
 				B718F3292BD7360000E60F9E /* ViewController.swift in Sources */,
+				B74889292BF0A24300EC77CA /* PechoViewController.swift in Sources */,
 				B718F3252BD7360000E60F9E /* AppDelegate.swift in Sources */,
 				B75F9D152BE06F1E00CE8358 /* CrudMedicamentoViewController.swift in Sources */,
 				B7787E492BE8112C00F58D98 /* ItemProductoTableViewCell.swift in Sources */,
-				B748891D2BF0A10000EC77CA /* ItemEspaldaTableViewCell.swift in Sources */,
+				B748891D2BF0A10000EC77CA /* ItemAbdomenTableViewCell.swift in Sources */,
 				B77954F42BD7406E00A2535A /* ControladorProducto.swift in Sources */,
 				B77954EF2BD739B700A2535A /* ItemTableViewCell.swift in Sources */,
 				B74889212BF0A14200EC77CA /* ItemPechoTableViewCell.swift in Sources */,
@@ -547,7 +560,9 @@
 				B7787E4B2BE812AC00F58D98 /* Producto.swift in Sources */,
 				B7C7872B2BDED0F100EB9E52 /* MedicamentoViewController.swift in Sources */,
 				B748891F2BF0A12700EC77CA /* ItemGluteosTableViewCell.swift in Sources */,
+				B748892B2BF0A25700EC77CA /* PiernaViewController.swift in Sources */,
 				B77954F22BD73D6E00A2535A /* AgendaModel.xcdatamodeld in Sources */,
+				B74889272BF0A22200EC77CA /* GluteosViewController.swift in Sources */,
 				B7787E452BE8085700F58D98 /* CuentaViewController.swift in Sources */,
 				B7C7872F2BDEDDCD00EB9E52 /* RegistrarMedicamentoViewController.swift in Sources */,
 				B7C7872D2BDED12300EB9E52 /* ItemMedicamentoTableViewCell.swift in Sources */,
@@ -555,6 +570,7 @@
 				B718F3272BD7360000E60F9E /* SceneDelegate.swift in Sources */,
 				B74889152BF095F700EC77CA /* ItemBrazosTableViewCell.swift in Sources */,
 				B74889132BF0955200EC77CA /* BrazosViewController.swift in Sources */,
+				B74889252BF0A20000EC77CA /* AbdomenViewController.swift in Sources */,
 				B77954F62BD740B100A2535A /* Agenda.swift in Sources */,
 				B7C8A7832BEDB88F00777712 /* Ejercicio.swift in Sources */,
 			);

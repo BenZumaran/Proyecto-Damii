@@ -9,6 +9,10 @@ import UIKit
 
 class ItemPechoTableViewCell: UITableViewCell {
 
+    @IBOutlet weak var lblNombrePecho: UILabel!
+    @IBOutlet weak var lblTipos: UILabel!
+    @IBOutlet weak var lblInstruccion: UILabel!
+    @IBOutlet weak var lblDificultad: UILabel!
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
